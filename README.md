@@ -9,6 +9,7 @@ chunk_sizer function:
   - It calculates number of NaN elements and valid elements in a given column.
   - It also counts the number of continuous NaN or valid chunks in the series.
   - Returns the chunk list where it records all chunks consecutively with their sizes
+  - [Optional] endtrim True removes the last chunk in the series and return it, in case the last of the series is NaN.
 
 valid_chunk function:
   - Takes a Pandas.Series() object, such as a column from a time series dataframe.
