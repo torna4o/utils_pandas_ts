@@ -20,3 +20,7 @@ valid_chunk function:
 
 nan_chunk function:
   - This function mirrors valid_chunk function to the NaN chunks.
+
+max_pickler function (added September 13,2023):
+  - This uses valid_chunk() and nan_chunk functions together.
+  - It returns the starting and ending locations of the longest continuous valid number chunk
