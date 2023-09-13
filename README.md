@@ -1,8 +1,8 @@
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/)
 # utils_pandas_ts for knowing what are you dealing while working with a Pandas.Series object
-Utility functions for pandas time series data, currently chunk_sizer calculates NA and valid number chunks in a timeseries object, and also gives total number of NA and valid number rows.
+Utility functions for pandas time series data.
 
-Currently, pdts_utils.py code includes a 
+Currently, pdts_utils.py code includes;
 
 chunk_sizer function:
   - Takes a Pandas.Series() object, such as a column from a time series dataframe.
